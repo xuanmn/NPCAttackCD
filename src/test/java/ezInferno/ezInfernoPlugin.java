@@ -1,9 +1,9 @@
-package FirstRLPlugin;
+package ezInferno;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class PluginLauncher
+public class ezInfernoPlugin
 {
 	public static void main(String[] args) throws Exception
 	{

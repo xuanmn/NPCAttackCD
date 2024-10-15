@@ -1,4 +1,4 @@
-package FirstRLPlugin;
+package ezInferno;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
