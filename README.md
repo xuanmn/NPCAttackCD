@@ -1,2 +1,2 @@
-# Example
-An example greeter plugin
+# NPCAttackCD
+Grabs the Ticks from NPC attacks
