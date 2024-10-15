@@ -1,6 +1,6 @@
 package com.ezInferno;
 
-import ezInferno.ezInfernoPlugin;
+import com.ezInferno.ezInfernoPlugin;
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
