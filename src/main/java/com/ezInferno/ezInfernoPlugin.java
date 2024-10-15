@@ -1,4 +1,4 @@
-package ezInferno;
+package com.ezInferno;
 
 import com.google.inject.Provides;
 import javax.inject.Inject;
@@ -23,7 +23,7 @@ public class ezInfernoPlugin extends Plugin
 	private Client client;
 
 	@Inject
-	private ezInfernoPluginConfig config;
+	private ezInferno.ezInfernoPluginConfig config;
 
 	@Override
 	protected void startUp() throws Exception
@@ -47,8 +47,8 @@ public class ezInfernoPlugin extends Plugin
 	}
 
 	@Provides
-	ezInfernoPluginConfig provideConfig(ConfigManager configManager)
+	ezInferno.ezInfernoPluginConfig provideConfig(ConfigManager configManager)
 	{
-		return configManager.getConfig(ezInfernoPluginConfig.class);
+		return configManager.getConfig(ezInferno.ezInfernoPluginConfig.class);
 	}
 }
