@@ -23,7 +23,7 @@ public class ezInfernoPlugin extends Plugin
 	private Client client;
 
 	@Inject
-	private ezInferno.ezInfernoPluginConfig config;
+	private com.ezInferno.ezInfernoPluginConfig config;
 
 	@Override
 	protected void startUp() throws Exception
@@ -47,8 +47,8 @@ public class ezInfernoPlugin extends Plugin
 	}
 
 	@Provides
-	ezInferno.ezInfernoPluginConfig provideConfig(ConfigManager configManager)
+	com.ezInferno.ezInfernoPluginConfig provideConfig(ConfigManager configManager)
 	{
-		return configManager.getConfig(ezInferno.ezInfernoPluginConfig.class);
+		return configManager.getConfig(com.ezInferno.ezInfernoPluginConfig.class);
 	}
 }
