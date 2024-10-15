@@ -1,7 +1,9 @@
-package ezInferno;
+package com.ezInferno;
 
 import com.google.inject.Provides;
 import javax.inject.Inject;
+
+import ezInferno.ezInfernoPluginConfig;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.ChatMessageType;
 import net.runelite.api.Client;
