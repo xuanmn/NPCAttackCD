@@ -1,13 +1,14 @@
-package ezInferno;
+package ezInferno.ezInferno;
 
+import ezInferno.ezInfernoPlugin;
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ezInfernoPlugin
+public class ezInfernoPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(ezInfernoPlugin.class);
 		RuneLite.main(args);
 	}
 }
