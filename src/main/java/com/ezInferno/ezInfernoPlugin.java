@@ -28,13 +28,13 @@ public class ezInfernoPlugin extends Plugin
 	@Override
 	protected void startUp() throws Exception
 	{
-		log.info("Example started!");
+		log.info("InfernoPlugin started!");
 	}
 
 	@Override
 	protected void shutDown() throws Exception
 	{
-		log.info("Example stopped!");
+		log.info("InfernoPlugin stopped!");
 	}
 
 	@Subscribe
@@ -42,7 +42,7 @@ public class ezInfernoPlugin extends Plugin
 	{
 		if (gameStateChanged.getGameState() == GameState.LOGGED_IN)
 		{
-			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "Example says " + config.greeting(), null);
+			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "InfernoPlugin says " + config.greeting(), null);
 		}
 	}
 
