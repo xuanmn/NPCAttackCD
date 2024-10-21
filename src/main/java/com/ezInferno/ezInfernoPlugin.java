@@ -23,7 +23,8 @@ public class ezInfernoPlugin extends Plugin
 	private Client client;
 
 	@Inject
-	private com.ezInferno.ezInfernoPluginConfig config;
+	private ezInfernoPluginConfig config;
+//	private com.ezInferno.ezInfernoPluginConfig config;
 
 	@Override
 	protected void startUp() throws Exception
